@@ -11,31 +11,33 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <script type="text/javascript" src="script.js" defer></script>
   </head>
   <body>
     <div class="calc-body">
+
       <div class="calc-display"></div>
       <div class="btn-container">
-        <div class="AC btn color-orange background-gray">AC</div>
+        <div class="AC btn color-orange background-gray" data-clear="true">AC</div>
         <div class="bckspace btn color-orange background-gray">bsp</div>
         <div class="percent btn color-orange background-gray">%</div>
-        <div class="divide btn color-orange background-gray">/</div>
-        <div class="seven btn color-white background-gray">7</div>
-        <div class="eight btn color-white background-gray">8</div>
-        <div class="nine btn color-white background-gray">9</div>
-        <div class="multiply btn color-orange background-gray">X</div>
-        <div class="four btn color-white background-gray">4</div>
-        <div class="five btn color-white background-gray">5</div>
-        <div class="six btn color-white background-gray">6</div>
-        <div class="subtract btn color-orange background-gray">-</div>
-        <div class="one btn color-white background-gray">1</div>
-        <div class="two btn color-white background-gray">2</div>
-        <div class="three btn color-white background-gray">3</div>
-        <div class="add btn color-orange background-gray">+</div>
+        <div class="divide btn color-orange background-gray" data-op="/">/</div>
+        <div class="btn color-white background-gray" data-value="7">7</div>
+        <div class="eight btn color-white background-gray" data-value="8">8</div>
+        <div class="nine btn color-white background-gray" data-value="9">9</div>
+        <div class="multiply btn color-orange background-gray" data-op="*">X</div>
+        <div class="four btn color-white background-gray" data-value="4">4</div>
+        <div class="five btn color-white background-gray" data-value="5">5</div>
+        <div class="six btn color-white background-gray" data-value="6">6</div>
+        <div class="subtract btn color-orange background-gray" data-op="-">-</div>
+        <div class="one btn color-white background-gray" data-value="1">1</div>
+        <div class="two btn color-white background-gray" data-value="2">2</div>
+        <div class="three btn color-white background-gray" data-value="3">3</div>
+        <div class="add btn color-orange background-gray" data-op="+">+</div>
         <div class="empty btn color-orange background-gray"></div>
-        <div class="zero btn color-white background-gray">0</div>
+        <div class="zero btn color-white background-gray" data-value="0">0</div>
         <div class="dot btn color-white background-gray">.</div>
-        <div class="result btn color-white background-orange">=</div>
+        <div class="result btn color-white background-orange" data-result="=">=</div>
       </div>
     </div>
   </body>
